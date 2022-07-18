@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked,NewsItemClick {
         val ai: ApplicationInfo = applicationContext.packageManager
             .getApplicationInfo(applicationContext.packageName, PackageManager.GET_META_DATA)
         val value = ai.metaData["apiValue"]
-        val key = "5d92f575094542c482c8795398e31d9d" //value.toString()
+        val key = value.toString()
         // val category = arrayOf("&category=business", "&category=science", "&category=sports", "&category=technology","","&category=general","&category=entertainment","&category=health")
         if(p!=1){
             url = "https://newsapi.org/v2/top-headlines?country=in&category=$name&apiKey=$key"
@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked,NewsItemClick {
         swipeRefreshLayout.setOnRefreshListener {
             val ai: ApplicationInfo = applicationContext.packageManager
                 .getApplicationInfo(applicationContext.packageName, PackageManager.GET_META_DATA)
-            val key = "5d92f575094542c482c8795398e31d9d" //value.toString()
+            val key = value.toString()
             // val category = arrayOf("&category=business", "&category=science", "&category=sports", "&category=technology","","&category=general","&category=entertainment","&category=health")
             url = when (p) {
                 0 -> "https://newsapi.org/v2/top-headlines?country=in&category=$name&apiKey=$key"
@@ -144,7 +144,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked,NewsItemClick {
         val ai: ApplicationInfo = applicationContext.packageManager
             .getApplicationInfo(applicationContext.packageName, PackageManager.GET_META_DATA)
         val value = ai.metaData["apiValue"]
-        val key = "5d92f575094542c482c8795398e31d9d" //value.toString()
+        val key =value.toString()
         if(item.category=="All"){
             url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=$key"
         }
@@ -177,7 +177,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked,NewsItemClick {
         val image = item.imageUrl
         val share = Intent.createChooser(Intent().apply {
             action = Intent.ACTION_SEND
-            putExtra(Intent.EXTRA_TEXT, "Hey! check out this latest news shared by my app Newz Today:   $imageUrl")
+            putExtra(Intent.EXTRA_TEXT, "Hey! check out this latest news shared by my app NewsBytes Today:   $imageUrl")
 
             // (Optional) Here we're setting the title of the content
             putExtra(Intent.EXTRA_TITLE, "Share this News using: ")
