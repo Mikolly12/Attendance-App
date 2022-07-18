@@ -35,7 +35,7 @@
 
         <meta-data
             android:name="apiValue"
-            android:value="$5d92f575094542c482c8795398e31d9d" />
+            android:value="key" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
