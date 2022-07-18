@@ -35,3 +35,6 @@ http://newsapi.org/
 - Long press allows you to share it anywhere through social medias.
 
 ## Screenshots
+<img src="https://user-images.githubusercontent.com/99657742/179527088-27e07b0a-b5c8-4ce8-a22e-ce0d11ec2fec.jpeg" width="250" height="500">        <img src="https://user-images.githubusercontent.com/99657742/179527115-c9e7361d-cffd-44ac-b50e-1e0979ed2d47.jpeg" width="250" height="500">
+
+
