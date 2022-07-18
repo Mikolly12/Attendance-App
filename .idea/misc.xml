@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/andro/NewsZ/app/src/main/res/drawable-v24/ic_baseline_arrow_back_ios_24.xml" value="0.1475" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/drawable/corner_cur.xml" value="0.1475" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1475" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/drawable/search_curve.xml" value="0.1475" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/layout/activity_searchcatagory.xml" value="0.25" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/layout/activity_splash_screen.xml" value="0.23055555555555557" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/layout/appactionbar.xml" value="0.25" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/layout/category_rv_item.xml" value="0.536" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/layout/fragment_half_sliding_news.xml" value="0.2" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/layout/item_news.xml" value="0.25" />
+        <entry key="..\:/andro/NewsZ/app/src/main/res/layout/temp.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
