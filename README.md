@@ -4,8 +4,8 @@
 
 * Mayank Yadav
 * Avish Khan
-* Eshaa Gogia
 * Akshat Tripathi
+* Dev Mandle
 
 ## About:
 
